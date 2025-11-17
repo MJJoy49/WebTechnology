@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1c1d1d;
+    padding: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.add-section {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.add-section label {
+    font-weight: bold;
+    color: #34495e;
+}
+
+#studentName {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 250px;
+}
+
+#addBtn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#addBtn:hover {
+    background-color: #2980b9;
+}
+
+h2 {
+    margin: 25px 0 15px;
+    color: #2c3e50;
+}
+
+#studentList {
+    list-style: none;
+}
+
+#studentList li {
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+#studentList li.highlighted {
+    background-color: yellow !important;
+}
+
+#studentList li span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-group button {
+    padding: 6px 12px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.edit-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.edit-btn:hover {
+     background-color: #2980b9; 
+    }
+.delete-btn:hover {
+     background-color: #c0392b; 
+    }
+
+#highlightBtn {
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #f1c40f;
+    color: #333;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#highlightBtn:hover {
+    background-color: #e2b607;
+}
+
+.no-students {
+    text-align: center;
+    color: #95a5a6;
+    font-style: italic;
+    padding: 20px;
+}

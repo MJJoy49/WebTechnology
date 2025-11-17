@@ -5,12 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        this main div.............
+    <div class="container">
+        <h1>Student Management System</h1>
+
+        <div class="add-section">
+            <label>Student Name:</label>
+            <input type="text" id="studentName" placeholder="Enter student name">
+            <button id="addBtn">Add Student</button>
+        </div>
+
+        <h2>Student List</h2>
+
+        <ul id="studentList">
+            <!-- Students will be added here -->
+        </ul>
+
+        <button id="highlightBtn">Highlight Students</button>
     </div>
+
+    <script src="system.js"></script>
 </body>
 
 </html>
