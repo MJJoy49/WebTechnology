@@ -4,6 +4,7 @@ const clearBtn = document.getElementById("clearBtn");
 
 let updateCounter = 0;
 counter.innerText = "0";
+//this
 
 function update() {
     updateCounter = updateCounter + 1;
